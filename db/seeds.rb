@@ -32,3 +32,5 @@ cities = [
   { name: "Central City" },
   { name: "Atlantis" }
 ]
+
+cities.each { |city| City.create(city) }
